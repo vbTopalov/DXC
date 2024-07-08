@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 500px;
+    background-image: url("https://th.bing.com/th/id/R.5917925acf50a219f5fdc966592de963?rik=zlABD13XMs13aw&pid=ImgRaw&r=0");
+
+}
+html{
+    font: 14px/1.5 Arial, sans-serif;
+}
+body,button,input,textarea{
+    font:inherit;
+}
+.body{
+    margin-top: 7em;
+    margin-left: 5em;
+    display: flex;
+    height: 400px;
+    background-color: rgb(44, 43, 43);
+    position: relative;
+    color: white;
+}
+.image .imagen{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: -6%;
+}
+img{
+    width: 300px;
+    height: 200px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4em;
+    padding: 5px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    color:  #e65a6c;
+
+}
+h3::before{
+    display: flex;
+    content: '_______________________________________';
+    justify-content: center;
+    padding: 0 1em;
+    color:  #e65a6c;
+    font-size: small;
+
+}
+h4{
+    width: 200px;
+    margin: 0.2em;
+}
+h4> svg{
+    color:  #e65a6c;
+
+}
+h2 > svg{
+    color: white;
+}
+.h3-my-services{
+    display: flex;
+    content: '_______________________________________';
+    justify-content: center;
+    margin-top: 2em;
+    
+    font-size: small;
+}
+
+.services{
+    font-size: 2em;
+    display: block;
+}
+.my-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+}
+.my-services > div{
+    width: 100px;
+    height: 40px;
+    padding: 0.2em;
+
+
+}
+.my-services-para{
+    width: 150px;
+    height: 40px;
+}
+.about-me{
+    display: block;
+    justify-content: center;
+}
+.me{
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    right: 48%;
+}
+.icons{
+    padding: 1em;
+
+}
+.icons > a > svg{
+    color: white;
+    margin: 10px;
+}
+a >svg:hover{
+    color: #e65a6c;
+}
+header{
+    justify-content: center;
+
+}
+p{
+    align-content: center;
+    font-size: 0.75em;
+    width: 300px;
+    height: 45px;
+    margin: 0.5em;
+    opacity: 0.7;
+}
+.sidebar {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    background-color: rgb(44, 43, 43);
+    height: 400px;
+    overflow: auto;
+  }
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+.sidebar a.active {
+    background-color: #e65a6c;
+    color: white;
+  }
+
+.sidebar a:hover:not(.active) {
+    background-color: #e65a6c;
+    color: white;
+}
+
+.sidebar-svg:hover{
+    color: white;
+}
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }

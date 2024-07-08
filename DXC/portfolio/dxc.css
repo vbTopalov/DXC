@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2em;
+    background: rgb(203, 108, 203);
+    width: 1100px;
+    height: auto;
+
+}
+html{
+    font: 14px/1.5 Arial, sans-serif;
+}
+body,button,input,textarea{
+    font:inherit;
+}
+
+header{
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+ul > li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+
+li > a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 1em;
+
+}
+a:hover{
+    background-color: orange;
+}
+h2,h3{
+    text-align: center;
+}
+.about-me{
+    margin: 1em;
+    padding: 1em;
+    display: inline-flex;
+    
+}
+.about-me > div{
+    display: inline-flex;
+}
+.about-me .about-me.pic > img {
+    width: 500px;
+    height: 300px;
+}
+.about-me .about-me.pic {
+    padding-left: 10em;
+}
+.about-me .about-me.text{
+    flex: 1 1  auto;
+    border-style: dotted;
+    height: auto;
+    
+}
+section{
+    display: flexbox;
+}
+
+.projects > article{
+    display: inline-flex;
+    height: auto;
+    border-style: dotted;
+
+}
+
+.project-info{
+    width: 40%;
+    padding: 1em;
+    height: auto;
+    border-style: dotted;
+
+
+}
+footer{
+    text-align: center;
+
+}

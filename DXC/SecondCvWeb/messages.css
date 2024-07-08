@@ -1,0 +1,22 @@
+form{
+    display: flexbox;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    padding-left: 3em;
+}
+button{
+    display: block;
+    margin: 1em;
+    font-size: medium;
+    margin-top: 2em;
+    padding: 0.2em;
+}
+button:hover{
+    background-color: #e65a6c ;
+   
+}
+label{
+    color: #e65a6c;
+    font-size: medium;
+}
